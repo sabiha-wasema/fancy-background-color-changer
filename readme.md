@@ -9,7 +9,7 @@ Check out the live demo of this project here ( https://change-background-color-u
 ## Features
 
 - Change the background color of the webpage to a predefined color or a random color.
-- Reset the background color to the default dark blue.
+- Reset the background color to the default color.
 - Interactive buttons with hover effects.
 - Smooth color transition and animations.
 
