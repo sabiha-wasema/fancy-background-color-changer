@@ -88,14 +88,3 @@ button#reset:hover {
     padding: 5px;
   }
 }
-@media (max-width: 480px) {
-  #color-changer {
-    padding: 40px;
-  }
-  button {
-    font-size: 14px;
-  }
-  #color-display {
-    font-size: 20px;
-  }
-}
