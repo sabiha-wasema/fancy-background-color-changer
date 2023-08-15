@@ -69,3 +69,33 @@ button#reset:hover {
 #color-display:hover {
   color: #3498db; /* Bright Blue Text on Hover */
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #color-changer {
+    padding: 40px;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+  }
+  button {
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px 30px;
+  }
+  #color-display {
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+@media (max-width: 480px) {
+  #color-changer {
+    padding: 40px;
+  }
+  button {
+    font-size: 14px;
+  }
+  #color-display {
+    font-size: 20px;
+  }
+}

@@ -1,5 +1,6 @@
 const colorDisplay = document.getElementById("color-display");
 const colorChanger = document.getElementById("color-changer");
+const defaultColor = "#f0f0f0"; // Default Dark Blue Background
 
 colorChanger.addEventListener("click", handleColorChange);
 
@@ -14,6 +15,7 @@ function handleColorChange(event) {
     } else if (color === "reset") {
       resetColor();
     } else {
+      resetColor(); // Reset color before applying a new color
       applyColor(color);
     }
   }
@@ -31,7 +33,7 @@ function applyColor(color) {
 }
 
 function resetColor() {
-  document.body.style.backgroundColor = "#2c3e50"; // Default Dark Blue Background
+  document.body.style.backgroundColor = defaultColor;
   colorDisplay.textContent = "Current Color";
 }
 
