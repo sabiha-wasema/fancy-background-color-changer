@@ -1,6 +1,6 @@
 const colorDisplay = document.getElementById("color-display");
 const colorChanger = document.getElementById("color-changer");
-const defaultColor = "#f0f0f0"; // Default Dark Blue Background
+const defaultColor = "#f0f0f0";
 
 colorChanger.addEventListener("click", handleColorChange);
 
